@@ -5,19 +5,19 @@
         "scopeID": {
             "type": "string",
             "metadata": {
-                "description": "IoT Central Scope ID"
+                "description": "Target DPS (IoTHub) - Scope ID"
             }
         },
         "iotCentralSASKey": {
             "type": "string",
             "metadata": {
-                "description": "IoT Central SAS Key"
+                "description": "Target DPS (IoTHub) - SAS Key Enrollment Group"
             }
         },
         "iotHubEventHub": {
             "type": "string",
             "metadata": {
-                "description": "IoT Hub Event Hub endpoint"
+                "description": "Source IoTHub - Event Hub compatible endpoint"
             }
         }
     },
