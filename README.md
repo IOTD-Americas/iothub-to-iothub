@@ -4,7 +4,7 @@ This repo is based on [Azure IoT Central Device Bridge](https://github.com/Azure
 
 This repository contains everything you need to create an azure function that takes data from an iot hub and forwards it to IoT Central
 
-![Architecture](assets/image1.png "Architecture")
+![Architecture](assets/image2.png "Architecture")
 
 
 
