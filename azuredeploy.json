@@ -23,9 +23,9 @@
     },
 
     "variables": {
-        "planName": "[concat('iotc-pln', uniqueString(resourceGroup().id))]",
-        "storageName": "[concat('iotcsa', uniqueString(resourceGroup().id))]",
-        "functionAppName": "[concat('iotc-fn', uniqueString(resourceGroup().id))]"
+        "planName": "[concat('iot-pln', uniqueString(resourceGroup().id))]",
+        "storageName": "[concat('iotsa', uniqueString(resourceGroup().id))]",
+        "functionAppName": "[concat('iot-fn', uniqueString(resourceGroup().id))]"
     },
     "resources": [
         {
@@ -121,7 +121,7 @@
                         "[concat('Microsoft.Web/sites/', variables('functionAppName'))]"
                     ],
                     "properties": {
-                        "packageUri": "https://raw.githubusercontent.com/IOTD-Americas/iothub-bridge-function/master/IoTHuBridgeFunction.zip"
+                        "packageUri": "https://raw.githubusercontent.com/IOTD-Americas/iothub-to-iothub/master/IoTHuBridgeFunction.zip"
                     }
                 }
             ],
