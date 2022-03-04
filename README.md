@@ -1,6 +1,6 @@
 # IoTHub to IoTHub - Bridge Function
 
-This repo is based on [Azure IoT Central Device Bridge](https://github.com/Azure/iotc-device-bridge)
+This repo is based on [Azure IoT Central Device Bridge](https://github.com/Azure/iotc-device-bridge) and [iothub-bridge-function](https://github.com/IOTD-Americas/iothub-bridge-function)
 
 This repository contains everything you need to create an azure function that takes data from an IoT Hub and forwards it to other IoT Hub
 
