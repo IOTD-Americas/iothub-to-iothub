@@ -29,4 +29,5 @@ provisioned with the function).
   ![SASKey](assets/SASKey.png "SASKey")
   ![Consumer Group](assets/ConsumeGroup.png "Consumer Group")
   ![Compatible Endpoint](assets/CompatibleEndpoint.png "Compatible Endpoint")
+  ![Template](assets/Template.png "Templeate")
   
