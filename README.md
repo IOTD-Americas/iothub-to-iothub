@@ -1,4 +1,4 @@
-# iothub-bridge-function
+# IoTHub to IoTHub - Bridge Function
 
 This repo is based on [Azure IoT Central Device Bridge](https://github.com/Azure/iotc-device-bridge)
 
