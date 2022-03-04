@@ -21,7 +21,7 @@ Take the following steps to deploy an Azure Function into your subscription and 
   - In the `Enrollment groups`, copy either the `Primary key` or the `Secondary key` and paste it into the `SAS Key` field. (this key will be stored in a Key Vault
 provisioned with the function).
 5. Go to `Source IoTHub` `Hub settings > Built-in endpoints`
-  - Create a consumer group called 'azurefunciotc', you must create it in order to function can get messages from IoT hub
+  - Create a consumer group called `azurefunciotc`, you must create it in order to function can get messages from IoT hub
   - Copy `Event Hub compatible endpoint` and paste in the template in `Iot Hub Event Hub`
 
   ![ID Scope](assets/IDScope.png "ID Scope")
